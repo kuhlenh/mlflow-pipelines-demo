@@ -19,14 +19,6 @@ p.run("ingest")
 
 # COMMAND ----------
 
-p.run("split")
-
-# COMMAND ----------
-
-p.run("transform")
-
-# COMMAND ----------
-
 p.run("train")
 
 # COMMAND ----------
@@ -35,13 +27,13 @@ p.run("evaluate")
 
 # COMMAND ----------
 
-p.run("register")
+#p.run("register")
 
 # COMMAND ----------
 
-p.inspect("train")
+# test_data = p.get_artifact("test_data")
+# test_data.describe()
 
 # COMMAND ----------
 
-test_data = p.get_artifact("test_data")
-test_data.describe()
+
