@@ -27,7 +27,15 @@ p.run("evaluate")
 
 # COMMAND ----------
 
-#p.run("register")
+p.run("evaluate")
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+p.run("register")
 
 # COMMAND ----------
 

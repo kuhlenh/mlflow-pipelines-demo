@@ -49,7 +49,7 @@ steps:
       - metric: weighted_mean_squared_error
         threshold: 20
   register:
-    model_name: "dais_taxi_regressor"
+    model_name: "ad_ctr_purchases"
     allow_non_validated_model: true
 metrics:
   custom:
