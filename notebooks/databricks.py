@@ -4,4 +4,12 @@ p = Pipeline(profile="databricks")
 
 # COMMAND ----------
 
+p.run("train")
+
+# COMMAND ----------
+
 p.run("evaluate")
+
+# COMMAND ----------
+
+
