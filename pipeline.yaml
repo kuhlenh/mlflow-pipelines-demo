@@ -43,11 +43,11 @@ steps:
   evaluate:
     validation_criteria:
       - metric: root_mean_squared_error
-        threshold: 10
+        threshold: 2.5
       - metric: mean_absolute_error
-        threshold: 50
+        threshold: 2.5
       - metric: weighted_mean_squared_error
-        threshold: 20
+        threshold: 2.5
   register:
     model_name: "dais_taxi_regressor"
     allow_non_validated_model: true
