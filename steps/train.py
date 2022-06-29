@@ -12,6 +12,7 @@ def estimator_fn():
     The estimator's input and output signatures should be compatible with scikit-learn
     estimators.
     """
-    from sklearn.linear_model import SGDRegressor
+    from sklearn.tree import DecisionTreeRegressor
 
-    return SGDRegressor(random_state=42)
+    return DecisionTreeRegressor(criterion="mse", max_depth=8, random_state=641401879)
+
