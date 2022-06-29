@@ -10,3 +10,11 @@ p.run("train")
 # COMMAND ----------
 
 p.run("evaluate")
+
+# COMMAND ----------
+
+p.run("evaluate")
+
+# COMMAND ----------
+
+
